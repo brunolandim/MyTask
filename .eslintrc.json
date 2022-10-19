@@ -1,0 +1,29 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "airbnb-base",
+    "overrides": [],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "no-unused-vars": "off",
+        "no-console": "off",
+        "indent": "off",
+        "max-len": [
+            "error",
+            {
+                "code": 100,
+                "tabWidth": 2,
+                "ignoreComments": true,
+                "ignoreTrailingComments": true,
+                "ignoreUrls": true,
+                "ignoreRegExpLiterals": true
+            }
+        ]
+    }
+}
